@@ -236,9 +236,6 @@ function addClickListenersToAuthors() {
   }
 }
 
-
-
-
 generateTitleLinks();
 generateTags();
 addClickListenersToTags();
