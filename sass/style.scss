@@ -94,7 +94,7 @@ body {
 }
 
 .list-horizontal {
-    li {
+    li a {
         display: inline-block;
     }
 }
@@ -128,4 +128,21 @@ body {
         margin: 0 10px 0 0;
         color: chartreuse;
     }
+}
+.list.tags li {
+    display: inline;
+    margin: 3px;
+}
+
+.tag-size-5 {
+    color: red;
+    font-size: 35px;
+}
+.tag-size-3 {
+    color: brown;
+    font-size: 25px;
+}
+.tag-size-1 {
+    color: burlywood;
+    font-size: 16px;
 }
